@@ -1,0 +1,46 @@
+# Python bytecode / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# GPU cache
+.gpu_cache/
+
+# Verification / test output data (data files, not source)
+verification_*/
+backup_kalman_fix/
+backups/
+
+# Result CSV files (generated outputs)
+cpp_results*.csv
+python_results*.csv
+
+# Large binary / data files
+*.npz
+*.npy
+*.bag
+
+
+*.log
+
+# Windows shortcut files
+*.lnk
